@@ -3,7 +3,8 @@ import numpy as np
 from scipy.interpolate import splprep, splev
 
 # Load image
-img = cv2.imread("bridge_image.jpg")
+img = cv2.imread("C:\\Users\\minke\\OneDrive\\Desktop\\Enham-Arch-Andover.jpg")
+
 
 # Click points on the arch to select control points
 control_points = []
